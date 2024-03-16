@@ -83,7 +83,6 @@ body {
 }
 
 .diff {
-    text-align:left;
     font-size: 1.25rempx;
 }
 
@@ -163,6 +162,7 @@ footer{
     /* tablet */
     .presentation {
         margin: 4%;
+        gap: 40px;
     }
 
     .presentation_content {
@@ -181,7 +181,6 @@ footer{
     }
     .presentation_content {
         width: 85%;
-        
     }
 
     .presentation_img {
