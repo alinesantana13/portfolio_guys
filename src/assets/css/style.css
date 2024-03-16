@@ -131,17 +131,16 @@ body {
 }
 
 footer{
-    padding: 24px;
+    padding: 1.5rem;
     color: var(--color-primary);
     background-color: var(--color-tertiary);
     text-align: center;
     font-family: var(--font-secondary);
-    font-size: 1.25rem;
+    font-size: 1.0rem;
     font-weight: 400;
 }
 
 @media (max-width: 1200px) {
-
     .header {
         padding: 5%;
     }
@@ -169,7 +168,6 @@ footer{
 
     .presentation_content {
         width: 100%;
-        
     }
 
 }
@@ -177,17 +175,18 @@ footer{
 @media (max-width: 480px){
     /* mobile */
     .header_menu{
-        gap: 50px;
-        
+        gap: 50px;   
     }
-
     .presentation {
         padding: 4%
     }
     .presentation_content {
-        width: 75%;
-        border: 1px solid red;
+        width: 85%;
         
+    }
+
+    .presentation_img {
+        width: 75%;
     }
 
 }
