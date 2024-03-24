@@ -126,7 +126,8 @@ body {
 }
 
 .presentation_img {
-    width: 50%;
+    width: 40%;
+    border-radius: 300px;
 }
 
 footer{
@@ -137,6 +138,28 @@ footer{
     font-family: var(--font-secondary);
     font-size: 1.0rem;
     font-weight: 400;
+}
+
+.curriculum_diff {
+    gap: 1rem;
+}
+
+#title_page_curriculum {
+    color: var(--color-tertiary);
+}
+
+.title_curriculum{
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    color: var(--color-tertiary)
+}
+
+.item_curriculum{
+    font-family: var(--font-secondary);
+}
+
+.item_curriculum > li{
+    margin-bottom: 10px;;
 }
 
 @media (max-width: 1200px) {
