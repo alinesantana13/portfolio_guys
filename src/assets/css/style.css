@@ -128,7 +128,13 @@ body {
 .presentation_img {
     width: 40%;
     border-radius: 300px;
+    border: 2px var(--color-secondary) solid;
 }
+
+.presentation_img:hover{
+    transform: translate(10%, -10%) scale(1.0);
+    cursor: pointer;
+  }
 
 footer{
     padding: 1.5rem;
